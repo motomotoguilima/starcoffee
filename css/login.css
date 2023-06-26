@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sem serifa;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: brown;
+    
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.Menu .menu{
+    display: flex;
+    list-style-type: none;
+
+}
+.Menu .menu li a{
+   display: flex;
+   justify-content: space-around;
+    text-decoration: none;
+    color: rgb(165, 165, 51);
+}
+
+.direita{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.cabecalho > nav > img{
+    width: 60px;
+}
+.direita > img{
+    width: 100px;
+}
